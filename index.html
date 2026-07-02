@@ -1,84 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Justin Spencer's site</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
-          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
 </head>
+
 <body>
-<div class="container">
-    <nav class="navbar navbar-default col-lg-6 col-lg-offset-3">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+    <div class="container">
+        <nav class="navbar navbar-default col-lg-6 col-lg-offset-3">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
                         aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">About/Contact</a></li>
+                        <li><a href="/resume.html">Resume</a></li>
+                    </ul>
+                </div>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">About/Contact</a></li>
-                    <li><a href="/resume.html">Resume</a></li>
-                </ul>
+        </nav>
+
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <div class="thumbnail">
+                    <img src="/img/myself.jpg" alt="me" class="img-rounded pull-right"
+                        style="height:125px;width:125px;" />
+                    <div class="caption">
+                        <h3>Humble-ish developer</h3>
+                        <p>I'm a jack-of-all-trades, master of none kind of guy. My experience is a mix of front-end,
+                            back-end, middleware, infrastructure, networking, and many other things inbetween. In recent
+                            years I've spent more time doing "DevSecOps" but I often still find myself in the weeds of application code.
+                            I also have erratic interest in interpreters, compilers, parsers, databases, and other
+                            potpourri
+                            in the CS world.
+                        </p>
+                        <p>
+                            Unfortunately the majority of my work is in private repos, but a few public repos can be
+                            found over on Github: https://github.com/JAMSUPREME
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
 
-    <div class="row">
-        <div class="col-lg-6 col-lg-offset-3">
-            <div class="thumbnail">
-                <img src="/img/myself.jpg" alt="me" class="img-rounded pull-right"
-                     style="height:125px;width:125px;"/>
-                <div class="caption">
-                    <h3>Humble-ish developer</h3>
-                    <p>I'm a jack-of-all-trades, master of none kind of guy. Most of my development is web stuff with
-                        C#.
-                        That being said, I'm a big fan of "DevOps", infrastructure, and testing all the aforementioned
-                        items.
-                        I also have erratic interest in interpreters, compilers, parsers, databases, and other potpourri
-                        in the CS world.
-                    </p>
-                    <p>
-                        <img src="/img/twitter-logo.png" alt="tweet me" style="height:75px;width:75px;">
-                        Feel free to tweet me
-                        <a href="https://twitter.com/jamsupreme" target="_blank">@jamsupreme</a>
-                    </p>
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">About this site</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            This site itself isn't anything too exciting.
+                            It's just a place to find my resume.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-lg-6 col-lg-offset-3">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">About this site</h3>
-                </div>
-                <div class="panel-body">
-                    <p>
-                        This site itself isn't anything too exciting.
-                        It just exists to showcase my resume in a format more easily readable than typical word docs.
-                        Soon-ish I'll be putting links to demo sites that I could spin up if I need to show stuff off
-                        for a job interview or something.
-                        (and of course anyone could look at their respective github repos just for fun and spin them up
-                        themselves)
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
