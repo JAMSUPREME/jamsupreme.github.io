@@ -1,2 +1,3 @@
 # jamsupreme.github.io
-Making a mediocre site for myself
+
+Making a mediocre site for myself.
